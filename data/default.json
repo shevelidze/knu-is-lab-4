@@ -1,0 +1,50 @@
+{
+  "lecturers": [
+    {
+      "id": 1,
+      "name": "John Doe"
+    }
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "name": "Group 1",
+      "size": 100
+    }
+  ],
+  "subjects": [
+    {
+      "id": 1,
+      "groupId": 1,
+      "suitedLecturers": [1],
+      "name": "Subject 1",
+      "count": 5
+    },
+    {
+      "id": 2,
+      "groupId": 1,
+      "suitedLecturers": [1],
+      "name": "Subject 2",
+      "count": 5
+    }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "name": "Room 1",
+      "capacity": 100
+    }
+  ],
+  "timeSlots": [
+    "Monday #1",
+    "Monday #2",
+    "Tuesday #1",
+    "Tuesday #2",
+    "Wednesday #1",
+    "Wednesday #2",
+    "Thursday #1",
+    "Thursday #2",
+    "Friday #1",
+    "Friday #2"
+  ]
+}
